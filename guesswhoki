@@ -1,0 +1,111 @@
+  <HTML>
+  <head>
+    <title>GuessWhoBasketballEdition.html</title>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <style>
+       body {
+         font-size: 20px;
+         color: navy;
+         background: #88aaff;
+         text-align: center;
+         font-size: 25px;
+
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 200px 1fr 1fr 50px;
+         gap: 10px;
+         }
+
+       div {
+         align-content: center;
+         }
+
+       .title {
+          grid-row-start: 1;
+          grid-row-end: 2;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          }
+
+      .picture {
+          grid-row-start: 2;
+          grid-row-end: 3;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          }
+
+      .picture2 {
+          grid-row-start: 3;
+          grid-row-end: 4;
+          grid-column-start: 1;
+          grid-column-end: 2;
+          }
+
+      .content {
+          grid-row-start: 2;
+          grid-row-end: 4;
+          grid-column-start: 2;
+          grid-column-end: 4;
+          background: #5588dd;
+          border: 2px white solid;
+          }
+
+
+       .footer {
+          grid-row-start: 4;
+          grid-row-end: 5;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          }
+
+
+   
+
+
+   
+   h1 {
+    font-size: 80px;
+
+   }
+
+   p {
+  border: 2px dashed black;
+   }
+ = "this.innerHTML = 'WOAH! YOU CLICKED ON ME!'; this.style='color: red;';" ondblclick = "this.innerHTML = 'My Layout Example Webpage'; this.style='color: navy;';">My Layout Example Webpage</h1>
+  </div>
+
+  <div class="content">
+     <h2></h2>
+     <marquee><h3></h3></marquee>
+     <i></i>!
+     <b>glad</b> <u></u>!
+     <p>
+        
+     </p>
+     There are a lot of reasons why this is a nice page:
+     <ul>
+       <li>This Player played with Lebron James</li>
+       <li>He switched teams three times</li>
+       <li>He also played with supertstar Luka Doncic<strike>speld</strike> He has 1 ring</li>
+     </ul>
+
+ </div>
+ <div class="picture1">
+     <img src="638x472.jpeg" onclick = "this.style = 'border: 2px black solid;';" width="95%" style="border: 2px white solid;"> 
+ </div>
+
+ <div class="picture2">
+     <img src="reallyhot.jpg" onclick = "this.src = '638x472.jpeg';" width="95%" style="border: 2px white solid;"> 
+ </div>
+ <div class="footer">
+    <p>
+
+   
+  </style>
+</head> 
+  
+<body>
+  <div class = "title"> 
+    <h1 onclick
